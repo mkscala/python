@@ -9,7 +9,7 @@ print
 '''
 The argv  variable holds the arguments you pass to your Python script
 when you run it.  
-
+     
 the arguments, it gets assigned to four
 variables you can work with: script, first, second, and third. This may look strange, but
 “unpack” is probably the best word to describe what it does. 
