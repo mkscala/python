@@ -14,12 +14,14 @@ or you can scroll down one page at a time with the space bar
 rm -rf .<file-name/directory-name>  delete a single file or directory
 '''       
 from sys import argv
+import sys
 from os.path import exists
-script, filename = argv
-
+filename = 'ccc.txt'
+py_ver =  sys.version_info.major
+print ("/n/nYour python version is %d." % (py_ver))
 
 txt = open(filename)
-print ("Here's your file %r:\n\n\n-------------------------\n\n" % filename)
+print ("\n\nHere's your file %r:\n\n\n-------------------------\n\n" % filename)
 print (txt.read())
 
 
@@ -149,3 +151,23 @@ target.close()
 
 # More Files  62  ex17.py  'learn python the hard way'
 
+from_file="mydata2.txt"
+to_file = "ccc.txt"
+print ("Copying from %s to %s" % (from_file, to_file))
+in_file = open(from_file)
+indata = in_file.read()
+
+print ("The input file is %d bytes long" % len(indata))
+print ("Does the output file exist? %r" % exists(to_file))
+print ("Ready, hit RETURN to continue, CTRL- C to abort.")
+if (py_ver < 3):
+    age  =  raw_input('>')
+else:
+    age = input('>')
+
+out_file = open(to_file, 'w')
+out_file.write(indata)
+print ("Alright, all done.")
+out_file.close()
+in_file.close()
+# More Files  66     'learn python the hard way'
