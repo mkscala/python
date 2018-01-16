@@ -141,18 +141,33 @@ def circle_area():
 
     # Format the output to 2 decimal places
     print("The area of the circle is {:.2f}".format(area))
-
+	
+	
+# this one is like your scripts with argv
+def print_two(*args):
+  arg1, arg2 = args
+  print ("arg1: %r, arg2: %r" % (arg1, arg2))
+  
+  
+# ok, that *args is actually pointless, we can just do this
+def print_two_again(arg1, arg2):
+   print ("arg1: %r, arg2: %r" % (arg1, arg2))  
+  
+  
 
 def main():
     # Our program will calculate the area for rectangles or circles
-   # Ask the user what shape they have
-    shape_type = input("Get area for what shape : ")
+    # Ask the user what shape they have
+    #shape_type = input("Get area for what shape : ")
 
     # Call a function that will route to the correct function
-    get_area(shape_type)
+    #get_area(shape_type)
 
     # All of the function definitions are ignored and this calls for main()
     # to execute when the program starts
 
-
+    
+	print_two_again("Zed","Shaw")
+	print_two("Zed","Shaw")
+# Functions and Variables   70  ex19.py  'learn python the hard way'	
 main()
