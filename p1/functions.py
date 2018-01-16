@@ -2,7 +2,7 @@
 # https://www.youtube.com/watch?v=1Xa_iDqvg94
 # http://www.newthinktank.com/2016/07/learn-program-5/
 def add_numbers(num_1, num2):
-      return num_1 + num2
+	  return num_1 + num2
  
 print("5 + 4 =", add_numbers(5, 4))
 
@@ -12,8 +12,8 @@ gbl_name = "Sally"
 
 
 def change_name_3():
-    global gbl_name
-    gbl_name = "Sammy"
+	global gbl_name
+	gbl_name = "Sammy"
 
 change_name_3()
 print(gbl_name)
@@ -27,12 +27,12 @@ print(gbl_name)
 
 # Receive the string and split the string into variables
 def solve_eq(equation):
-    x, add, num1, equal, num2 = equation.split()
-    # Convert the strings into ints
-    num1, num2 = int(num1), int(num2)
-    # Convert the result into a string and join (concatenate)
-    # it to the string "x = "
-    return "x = " + str(num2 - num1)
+	x, add, num1, equal, num2 = equation.split()
+	# Convert the strings into ints
+	num1, num2 = int(num1), int(num2)
+	# Convert the result into a string and join (concatenate)
+	# it to the string "x = "
+	return "x = " + str(num2 - num1)
 
 
 print(solve_eq("x + 4 = 9"))
@@ -42,7 +42,7 @@ print(solve_eq("x + 4 = 9"))
 # You can return multiple values with the return statement
 
 def mult_divide(num1, num2):
-    return (num1 * num2), (num1 / num2)
+	return (num1 * num2), (num1 / num2)
 
 
 mult, divide = mult_divide(5, 4)
@@ -61,29 +61,29 @@ print("5 / 4 =", divide)
 # If modulus == 0 that means the number isn't prime
 
 def isprime(num):
-    # This for loop cycles through primes from 2 to
-    # the value to check
-    for i in range(2, num):
+	# This for loop cycles through primes from 2 to
+	# the value to check
+	for i in range(2, num):
 
-        # If any division has no remainder we know it
-        # isn't a prime number
-        if (num % i) == 0:
-            return False
-    return True
+		# If any division has no remainder we know it
+		# isn't a prime number
+		if (num % i) == 0:
+			return False
+	return True
 
 
 def getPrimes(max_number):
-    # Create a list to hold primes
-    list_of_primes = []
+	# Create a list to hold primes
+	list_of_primes = []
 
-    # This for loop cycles through primes from 2 to
-    # the maximum value requested
-    for num1 in range(2, max_number):
+	# This for loop cycles through primes from 2 to
+	# the maximum value requested
+	for num1 in range(2, max_number):
 
-        if isprime(num1):
-            list_of_primes.append(num1)
+		if isprime(num1):
+			list_of_primes.append(num1)
 
-    return list_of_primes
+	return list_of_primes
 
 
 max_num_to_check = int(input("Search for Primes up to : "))
@@ -91,7 +91,7 @@ max_num_to_check = int(input("Search for Primes up to : "))
 list_of_primes = getPrimes(max_num_to_check)
 
 for prime in list_of_primes:
-    print(prime)
+	print(prime)
 # 159   19:29
 
 # ---------- UNKNOWN NUMBER OF ARGUMENTS ----------
@@ -99,12 +99,12 @@ for prime in list_of_primes:
 # the splat (*) operator
 
 def sumAll(*args):
-    sum = 0
+	sum = 0
 
-    for i in args:
-        sum += i
+	for i in args:
+		sum += i
 
-    return sum
+	return sum
 
 print("Sum :", sumAll(1, 2, 3, 4))
 
@@ -112,62 +112,57 @@ import math
 
 
 def get_area(shape):
-    # Switch to lowercase for easy comparison
-    shape = shape.lower()
+	# Switch to lowercase for easy comparison
+	shape = shape.lower()
 
-    if shape == "rectangle":
-        rectangle_area()
-    elif shape == "circle":
-        circle_area()
-    else:
-        print("Please enter rectangle or circle")
+	if shape == "rectangle":
+		rectangle_area()
+	elif shape == "circle":
+		circle_area()
+	else:
+		print("Please enter rectangle or circle")
 
 
 # Create function that calculates the rectangle area
 def rectangle_area():
-    length = float(input("Enter the length : "))
-    width = float(input("Enter the width : "))
+	length = float(input("Enter the length : "))
+	width = float(input("Enter the width : "))
 
-    area = length * width
+	area = length * width
 
-    print("The area of the rectangle is", area)
+	print("The area of the rectangle is", area)
 
 
 # Create function that calculates the circle area
 def circle_area():
-    radius = float(input("Enter the radius : "))
+	radius = float(input("Enter the radius : "))
 
-    area = math.pi * (math.pow(radius, 2))
+	area = math.pi * (math.pow(radius, 2))
 
-    # Format the output to 2 decimal places
-    print("The area of the circle is {:.2f}".format(area))
-	
-	
+	# Format the output to 2 decimal places
+	print("The area of the circle is {:.2f}".format(area))
+
+
 # this one is like your scripts with argv
 def print_two(*args):
-  arg1, arg2 = args
-  print ("arg1: %r, arg2: %r" % (arg1, arg2))
+    arg1, arg2 = args
+    print ("arg1: %r, arg2: %r" % (arg1, arg2))
   
   
 # ok, that *args is actually pointless, we can just do this
 def print_two_again(arg1, arg2):
-   print ("arg1: %r, arg2: %r" % (arg1, arg2))  
-  
-  
+    print ("arg1: %r, arg2: %r" % (arg1, arg2))
+
+def print_all(f):
+
+    print (f.read())
 
 def main():
-    # Our program will calculate the area for rectangles or circles
-    # Ask the user what shape they have
-    #shape_type = input("Get area for what shape : ")
 
-    # Call a function that will route to the correct function
-    #get_area(shape_type)
-
-    # All of the function definitions are ignored and this calls for main()
-    # to execute when the program starts
-
-    
-	print_two_again("Zed","Shaw")
-	print_two("Zed","Shaw")
-# Functions and Variables   70  ex19.py  'learn python the hard way'	
+    print_two_again("Zed","Shaw")
+    #functions and files page 74 'python the hard way'
+    input_file = 'ccc.txt'
+    current_file = open(input_file)
+    print("First let's print the whole file:\n")
+    print_all(current_file)
 main()
