@@ -1,16 +1,16 @@
 #!/usr/bin/env python3
 # https://www.youtube.com/watch?v=1Xa_iDqvg94
 # http://www.newthinktank.com/2016/07/learn-program-5/
-def add_numbers(num_1, num2):
+def add (num_1, num2):
 	  return num_1 + num2
  
-print("5 + 4 =", add_numbers(5, 4))
+ 
 
 # ---------- EXAMPLE 4 ----------
 # You can also use the global statement to change it
 gbl_name = "Sally"
 
-
+ 
 def change_name_3():
 	global gbl_name
 	gbl_name = "Sammy"
@@ -165,10 +165,10 @@ def main():
     current_file = open(input_file)
     print("First let's print the whole file:\n")
     print_all(current_file)
-	
+    age = add(30, 5)
+    print   ("Age: %d " % (age ))
 	#Learn   python  the  hard way p 78 ex21 
-	# Functions Can Return Something
-	
+	#Functions Can Return Something
 	
 	
 	
