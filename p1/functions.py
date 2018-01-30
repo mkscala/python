@@ -165,4 +165,11 @@ def main():
     current_file = open(input_file)
     print("First let's print the whole file:\n")
     print_all(current_file)
+	
+	#Learn   python  the  hard way p 78 ex21 
+	# Functions Can Return Something
+	
+	
+	
+	
 main()
