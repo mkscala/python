@@ -6,7 +6,7 @@ cd .git
 ls -a | less      list hidden files scroll either up or down using 
 the arrow keys 
 or you can scroll down one page at a time with the space bar
-     dddd
+     
 rm -rf .<file-name/directory-name>  delete a single file or directory
 '''       
 from sys import argv
@@ -84,3 +84,4 @@ print_last_word(w)
 sorted_words = sort_sentence(s)
 print(sorted_words )
 print(sorted_words[0])
+#print_first_and_last(w)
