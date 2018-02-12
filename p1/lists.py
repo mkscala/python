@@ -1,8 +1,4 @@
-
-
-
 # Loops and Lists  106     'learn python the hard way'
-
 the_count = [1, 2, 3, 4, 5]
 fruits = ['apples', 'oranges', 'pears', 'apricots']
 change = [1, 'pennies', 2, 'dimes', 3, 'quarters']
@@ -14,8 +10,28 @@ for number in the_count:
 # same as above
 for fruit in fruits:
     print("A fruit of type: %s" % fruit)
-# Loops and Lists  107     'learn python the hard way'
+# also we can go through mixed lists too
+# notice we have to use %r since we don't know what's in it
+for i in change:
+    print("I got %r" % i)
 
+
+# we can also build lists, first start with an empty one
+elements = []
+
+# then use the range function to do 0 to 5 counts
+for i in range(0, 6):
+    print("Adding %d to the list." % i)
+  # append is a function that lists understand
+    elements.append(i)
+
+  # now we can print them out too
+for i in elements:
+ print ("Element was: %d" % i)
+
+
+
+# Loops and Lists  110     'learn python the hard way'
 # https://www.youtube.com/watch?v=A1HUzrvS-Pw
 # http://www.newthinktank.com/2016/07/learn-program-6/
 
@@ -32,7 +48,6 @@ import math
 # of any type
 
 randList = ["string", 1.234, 28]
-
 # Create a list with range
 oneToTen = list(range(10))
 # An awesome thing about lists is that you can use many
