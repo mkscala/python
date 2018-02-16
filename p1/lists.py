@@ -32,6 +32,10 @@ for i in elements:
 
 
 # Loops and Lists  110     'learn python the hard way'
+
+
+
+
 # https://www.youtube.com/watch?v=A1HUzrvS-Pw
 # http://www.newthinktank.com/2016/07/learn-program-6/
 
