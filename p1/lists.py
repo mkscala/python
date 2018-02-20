@@ -1,3 +1,31 @@
+# Lists 129     'learn python the hard way'
+
+
+
+ten_things = "Apples Oranges Crows Telephone Light Sugar"
+print ("Wait there's not 10 things in that list, let's fix that.")
+stuff = ten_things.split(' ')
+more_stuff = ["Day", "Night", "Song", "Frisbee", "Corn", "Banana", "Girl", "Boy"]
+
+while len(stuff) != 10:
+  next_one = more_stuff.pop()
+  print ("Adding: ", next_one)
+  stuff.append(next_one)
+  print ("There's %d items now." % len(stuff))
+
+print ("There we go: ", stuff)
+print ("Let's do some things with stuff.")
+print (stuff[1]) #Seconed item
+print (stuff[- 1]) # Last  item 
+print (stuff.pop()) #Take out last item
+print (' '.join(stuff))#Apples Oranges Crows Telephone Light Sugar Boy Girl Banana
+print ('#'.join(stuff[3:5])) # Telephone#Light  
+
+# Lists 130    'learn python the hard way'
+
+
+
+
 # Loops and Lists  106     'learn python the hard way'
 the_count = [1, 2, 3, 4, 5]
 fruits = ['apples', 'oranges', 'pears', 'apricots']
