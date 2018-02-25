@@ -1,3 +1,4 @@
+# coding: utf-8
 #!/usr/bin/env python3
 # Dictionaries   132     'learn python the hard way'
 
@@ -23,20 +24,19 @@ cities = {
   'FL': 'Jacksonville'
   }
 
-
 # add some more cities
 cities['NY'] = 'New York'
 cities['OR'] = 'Portland'
-
 # print out some cities
 print ('- ' * 10)# -------------------------
 print ("NY State has: ", cities['NY'])
 print ("OR State has: ", cities['OR'])
+ # print some states
+print (  '- ' * 10)
+print ("Michigan's abbreviation is: ", states['Michigan'])
+print ("Florida's abbreviation is: ", states['Florida'])
 
-
-
-
-
+     
 
 
 # https://www.youtube.com/watch?v=qmWCT_OgrKQ
