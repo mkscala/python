@@ -1,4 +1,43 @@
 #!/usr/bin/env python3
+# Dictionaries   132     'learn python the hard way'
+
+'''Python calls them “dicts.” Other languages call them “hashes.”
+
+dict associates one thing to another, no matter what it is
+'''
+
+# ex39.py
+# create a mapping of state to abbreviation
+states = {
+  'Oregon': 'OR',
+  'Florida': 'FL',
+  'California': 'CA',
+  'New York': 'NY',
+  'Michigan': 'MI'
+  }
+ 
+# create a basic set of states and some cities in them
+cities = {
+  'CA': 'San Francisco',
+  'MI': 'Detroit',
+  'FL': 'Jacksonville'
+  }
+
+
+# add some more cities
+cities['NY'] = 'New York'
+cities['OR'] = 'Portland'
+
+# print out some cities
+print ('- ' * 10)# -------------------------
+print ("NY State has: ", cities['NY'])
+print ("OR State has: ", cities['OR'])
+
+
+
+
+
+
 
 # https://www.youtube.com/watch?v=qmWCT_OgrKQ
 # http://www.newthinktank.com/2016/07/learn-program-7/
@@ -68,126 +107,4 @@ derekDict.clear()
 
 # List for holding Dictionaries
 employees = []
-
-# Input employee data
-fName, lName = input("Enter Employee Name : ").split()
-
-employees.append({'fName': fName, 'lName': lName})
-
-print(employees)
-
-# ---------- PROBLEM : CREATE A CUSTOMER LIST ----------
-# Create an array of customer dictionaries
-# Output should look like this
-'''
-Enter Customer (Yes/No) : y
-Enter Customer Name : Derek Banas
-Enter Customer (Yes/No) : y
-Enter Customer Name : Sally Smith
-Enter Customer (Yes/No) : n
-Derek Banas
-Sally Smith
-'''
-
-# Create customer array outside the for so it isn't local
-# to the while loop
-customers = []
-
-while True:
-
-    # Cut off the 1st letter to cover if the user
-    # types a n or y
-    createEntry = input("Enter Customer (Yes/No) : ")
-    createEntry = createEntry[0].lower()
-
-    if createEntry == "n":
-
-        # Leave the while loop when n is entered
-        break
-    else:
-
-        # Get the customer name by splitting at the space
-        fName, lName = input("Enter Customer Name : ").split()
-
-        # Add the dictionary to the array
-        customers.append({'fName': fName, 'lName': lName})
-
-# Print out customer list
-for cust in customers:
-    print(cust['fName'], cust['lName'])
-
-
-# 12:09---------- RECURSIVE FUNCTIONS ----------
-# A function that refers to itself is a recursive function
-
-# Calculating factorials is commonly done with a recursive
-# function 3! = 3 * 2 * 1
-
-def factorial(num):
-    # Every recursive function must contain a condition
-    # when it ceases to call itself
-    if num <= 1:
-        return 1
-    else:
-
-        result = num * factorial(num - 1)
-        return result
-
-
-print(factorial(4))
-
-# 1st : result = 4 * factorial(3) = 4 * 6 = 24
-# 2nd : result = 3 * factorial(2) = 3 * 2 = 6
-# 3rd : result = 2 * factorial(1) = 2 * 1 = 2
-
-# ---------- PROBLEM : CALCULATE FIBONACCI NUMBERS ----------
-# To calculate Fibonacci numbers we sum the 2 previous
-# values to calculate the next item in the list like this
-# 1, 1, 2, 3, 5, 8 ...
-
-# The Fibonacci sequence is defined by:
-# Fn = Fn-1 + Fn-2
-# Where F0 = 0 and F1 = 1
-
-'''
-Sample Run Though to Help
-print(fib(3))
-
-# 1st : result = fib(2) + fib(1) : 2 + 1
-# 2nd : result = (fib(1) + fib(0)) + (fib(0)) : 1 + 0
-# 3rd : result = fib(2) + fib(1)
-
-print(fib(4))
-
-# 1st : result = fib(3) + fib(2) : 3 + 2
-# 2nd : result = (fib(2) + fib(1)) + (fib(1) + fib(0)) : 2 + 1
-# 3rd : result = (fib(1) + fib(0)) + fib(0) : 1 + 0
-'''
-
-
-def fib(n):
-    if n == 0:
-        return 0
-    elif n == 1:
-        return 1
-    else:
-
-        result = fib(n - 1) + fib(n - 2)
-        return result
-
-
-print(fib(3))
-
-print(fib(4))
-
-sales_record = {
-'price': 3.24,
-'num_items': 4,
-'person': 'Chris'}
-
-sales_statement = '{} bought {} item(s) at a price of {} each for a total of {}'
-
-print(sales_statement.format(sales_record['person'],
-                             sales_record['num_items'],
-                             sales_record['price'],
-                             sales_record['num_items']*sales_record['price']))
+ 
