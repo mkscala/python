@@ -1,5 +1,58 @@
 # coding: utf-8
 # !/usr/bin/env python3
+'''
+len(d) -  number of stored entries, i.e. the number of (key,value) pairs.
+del d[k] -	deletes the key k together with his value
+k in d - True, if a key k exists in the dictionary d
+k not in d -	True, if a key k doesn't exist in the dictionary d
+if "car" in words: print words["car"]
+w = words.copy() -  copy dic words to w
+w.clear() - clear content of a dictionary w
+w.update(w1) - merges the keys and values of w1  dictionary into w
+
+
+Iterating over a Dictionary
+ for key in d:
+	print (key)
+
+But it's possible to use the method iterkeys():
+
+for key in d.iterkeys():
+	print (key)
+
+The method itervalues() is a convenient way for iterating directly over the
+values:
+for val in d.itervalues():
+	print (val)
+The above loop is of course equivalent to the following one:
+for key in d:
+	print (d[key])
+
+
+Lists from Dictionaries
+w={"house":"Haus","cat":"Katze","red":"rot"}
+>>> w.items()
+>>> w.keys()
+
+Dictionaries from Lists
+ We have the  nect  two  lists
+ dishes = ["pizza", "sauerkraut", "paella", "Hamburger"]
+ countries = ["Italy", "Germany", "Spain", "USA"]
+ Use  the next command
+ country_specialities = zip(countries, dishes)
+ The  result is the  next 2-tuple list :
+  country_specialities = [('Italy', 'pizza'), ('Germany', 'sauerkraut'),
+  ('Spain', 'paella'), ('USA', 'Hamburger')]
+  The  next  command will   transform  it in to dic
+  country_specialities_dict = dict(country_specialities)
+
+'''
+
+
+
+
+
+
 # Dictionaries   132     'learn python the hard way'
 
 '''Python calls them “dicts.” Other languages call them “hashes.”
@@ -64,6 +117,7 @@ if not state:
  # get a city with a default value
 city = cities.get('TX', 'Does Not Exist')
 print ("The city for the state 'TX' is: %s" % city)
+
 
 
 
