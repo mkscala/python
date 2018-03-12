@@ -1,5 +1,20 @@
  # coding: utf-8
 # !/usr/bin/env python3
+
+import random
+from urllib.request import urlopen # python 2.5 equivlant to 'from urllib import urlopen'
+import sys
+
+'''
+In python3, urllib has been split into urllib.request and urllib.error. 
+See note at the top of the urllib2 page. The function you are looking for is contained in urllib.request. Try the following:
+
+
+page = urlopen("https://docs.python.org/3/howto/urllib2.html")
+contents = page.read()
+
+
+'''
 '''class — Tell Python to make a new kind of thing.
 • object — Two meanings: the most basic kind of thing, and any instance of some thing.
 • instance — What you get when you tell Python to create a class.
@@ -18,7 +33,7 @@ salmon has- a mouth.
 #  MODULES, CLASSES, AND OBJECTS  p. 142     'learn python the hard way'
 class Song(object):
     def __init__(self, lyrics):
-	  self.lyrics = lyrics
+	    self.lyrics = lyrics
     def sing_me_a_song(self):
         for line in self.lyrics:
             print (line)
@@ -41,4 +56,8 @@ about whether you mean the instance’s cheese attribute or a local variable nam
 self.cheese = 'Frank' it’s very clear you mean the instance attribute self.cheese.
 '''
 
-# Learning to Speak Object Oriented  p. 144     'learn python the hard way'
+# Learning to Speak Object Oriented  p. 146     'learn python the hard way'
+
+
+WORD_URL = "http://learncodethehardway.org/words.txt"
+WORDS = []
