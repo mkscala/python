@@ -8,14 +8,11 @@ import sys
 '''
 In python3, urllib has been split into urllib.request and urllib.error. 
 See note at the top of the urllib2 page. The function you are looking for is contained in urllib.request. Try the following:
-
+    
 
 page = urlopen("https://docs.python.org/3/howto/urllib2.html")
 contents = page.read()
-
-
-'''
-'''class — Tell Python to make a new kind of thing.
+ class — Tell Python to make a new kind of thing.
 • object — Two meanings: the most basic kind of thing, and any instance of some thing.
 • instance — What you get when you tell Python to create a class.
 • def — How you define a function inside a class.
