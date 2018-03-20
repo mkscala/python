@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44fbca12-24eb-48c1-9c47-88b764325cbc" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/prj.iml" afterPath="$PROJECT_DIR$/.idea/prj.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/p1/game43.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/p1/objore.py" afterPath="$PROJECT_DIR$/p1/objore.py" />
     </list>
@@ -16,97 +15,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="files.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/p1/files.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="172" column="19" lean-forward="false" selection-start-line="172" selection-start-column="19" selection-end-line="172" selection-end-column="19" />
-              <folding>
-                <element signature="e#508#528#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="funfiles.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/p1/funfiles.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="172" column="48" lean-forward="false" selection-start-line="172" selection-start-column="0" selection-end-line="172" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lists.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/p1/lists.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="61" column="22" lean-forward="false" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ex35.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/p1/ex35.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dictionaries.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/p1/dictionaries.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="46" column="56" lean-forward="false" selection-start-line="46" selection-start-column="56" selection-end-line="46" selection-end-column="56" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="functions.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/p1/functions.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-9">
-              <caret line="162" column="54" lean-forward="false" selection-start-line="162" selection-start-column="54" selection-end-line="162" selection-end-column="54" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="objore.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="objore.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/p1/objore.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="651">
-              <caret line="85" column="39" lean-forward="true" selection-start-line="85" selection-start-column="39" selection-end-line="85" selection-end-column="39" />
+            <state relative-caret-position="665">
+              <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="41" />
               <folding>
-                <element signature="e#42#55#0" expanded="true" />
+                <element signature="e#41#54#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="simplemenu.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/qt/basic/simplemenu.py">
+      <file leaf-file-name="game43.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/p1/game43.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="1" column="23" lean-forward="false" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="submenu.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/qt/basic/submenu.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+            <state relative-caret-position="122">
+              <caret line="173" column="27" lean-forward="false" selection-start-line="173" selection-start-column="27" selection-end-line="173" selection-end-column="27" />
               <folding>
-                <element signature="e#97#107#0" expanded="true" />
+                <element signature="e#167#187#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -159,11 +86,12 @@
         <option value="$PROJECT_DIR$/p1/ex35.py" />
         <option value="$PROJECT_DIR$/p1/dictionaries.py" />
         <option value="$PROJECT_DIR$/p1/objore.py" />
+        <option value="$PROJECT_DIR$/p1/game43.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
+    <option name="x" value="952" />
     <option name="width" value="976" />
     <option name="height" value="1038" />
   </component>
@@ -206,7 +134,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.objore">
+  <component name="RunManager" selected="Python.game43">
     <configuration name="dictionaries" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -238,6 +166,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="prj" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/p1/ex35.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="game43" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/p1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="prj" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/p1/game43.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -297,39 +243,21 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="prts" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/p1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="prj" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/p1/prts.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.ex35" />
-      <item index="1" class="java.lang.String" itemvalue="Python.prts" />
-      <item index="2" class="java.lang.String" itemvalue="Python.practice" />
-      <item index="3" class="java.lang.String" itemvalue="Python.lists" />
-      <item index="4" class="java.lang.String" itemvalue="Python.dictionaries" />
-      <item index="5" class="java.lang.String" itemvalue="Python.objore" />
+      <item index="1" class="java.lang.String" itemvalue="Python.practice" />
+      <item index="2" class="java.lang.String" itemvalue="Python.lists" />
+      <item index="3" class="java.lang.String" itemvalue="Python.dictionaries" />
+      <item index="4" class="java.lang.String" itemvalue="Python.objore" />
+      <item index="5" class="java.lang.String" itemvalue="Python.game43" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.objore" />
-        <item index="1" class="java.lang.String" itemvalue="Python.dictionaries" />
-        <item index="2" class="java.lang.String" itemvalue="Python.lists" />
-        <item index="3" class="java.lang.String" itemvalue="Python.practice" />
-        <item index="4" class="java.lang.String" itemvalue="Python.prts" />
+        <item index="0" class="java.lang.String" itemvalue="Python.game43" />
+        <item index="1" class="java.lang.String" itemvalue="Python.objore" />
+        <item index="2" class="java.lang.String" itemvalue="Python.dictionaries" />
+        <item index="3" class="java.lang.String" itemvalue="Python.lists" />
+        <item index="4" class="java.lang.String" itemvalue="Python.practice" />
       </list>
     </recent_temporary>
   </component>
@@ -355,7 +283,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.122651935" sideWeight="0.50416666" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48729283" sideWeight="0.49583334" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48618785" sideWeight="0.49583334" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -382,13 +310,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/p1/myclass.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3634">
-          <caret line="46" column="21" lean-forward="false" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/p1/dictionaries.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3634">
@@ -563,7 +484,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/qt/basic/simplemenu.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="35">
           <caret line="1" column="23" lean-forward="false" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
           <folding />
         </state>
@@ -571,10 +492,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/qt/basic/submenu.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="560">
           <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
           <folding>
-            <element signature="e#97#107#0" expanded="true" />
+            <element signature="e#97#107#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -616,10 +537,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/p1/files.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="5950">
           <caret line="172" column="19" lean-forward="false" selection-start-line="172" selection-start-column="19" selection-end-line="172" selection-end-column="19" />
           <folding>
-            <element signature="e#508#528#0" expanded="true" />
+            <element signature="e#508#528#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -640,7 +561,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/p1/funfiles.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="5950">
           <caret line="172" column="48" lean-forward="false" selection-start-line="172" selection-start-column="0" selection-end-line="172" selection-end-column="48" />
           <folding />
         </state>
@@ -648,7 +569,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/p1/lists.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="2135">
           <caret line="61" column="22" lean-forward="false" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
           <folding />
         </state>
@@ -656,7 +577,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/p1/ex35.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="1995">
           <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
           <folding />
         </state>
@@ -664,7 +585,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/p1/dictionaries.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="1610">
           <caret line="46" column="56" lean-forward="false" selection-start-line="46" selection-start-column="56" selection-end-line="46" selection-end-column="56" />
           <folding />
         </state>
@@ -672,7 +593,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/p1/functions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
+        <state relative-caret-position="5670">
           <caret line="162" column="54" lean-forward="false" selection-start-line="162" selection-start-column="54" selection-end-line="162" selection-end-column="54" />
           <folding />
         </state>
@@ -680,10 +601,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/p1/objore.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="85" column="39" lean-forward="true" selection-start-line="85" selection-start-column="39" selection-end-line="85" selection-end-column="39" />
+        <state relative-caret-position="665">
+          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="41" />
           <folding>
-            <element signature="e#42#55#0" expanded="true" />
+            <element signature="e#41#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/p1/game43.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="173" column="27" lean-forward="false" selection-start-line="173" selection-start-column="27" selection-end-line="173" selection-end-column="27" />
+          <folding>
+            <element signature="e#167#187#0" expanded="true" />
           </folding>
         </state>
       </provider>
