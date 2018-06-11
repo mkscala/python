@@ -214,3 +214,7 @@ print (formatter % (
  ) )
 #page 38 'learn python the hard way'
 
+print ('\n\n','Method List','\n\n',dir(joke_evaluation))
+print ('\n\nHelp\n\n')
+print (help(joke_evaluation.count))
+
