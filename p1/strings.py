@@ -3,16 +3,19 @@
 '''
 len('rty):  length      s.lower():lowercase    s.upper():      str(2):  turns non-strings into strings!
 capitalize() - Returns the string with first letter capitalized and the rest lowercased.
-casefold() - Returns a lowercase string, generally used for caseless matching. This is more aggressive than the lower() method.
+casefold() - Returns a lowercase string, generally used for caseless matching. This is more 
+             aggressive than the lower() method.
 center() - Center the string within the specified width with optional fill character.
 count() - Count the non-overlapping occurrence of supplied substring in the string.
 encode() - Return the encoded version of the string as a bytes object.
-endswith() - Returns ture if the string ends with the supplied substring.
+endswith() - Returns true if the string ends with the supplied substring.
 expandtabs() - Return a string where all the tab characters are replaced by the supplied number of spaces.
-find() - Return the index of the first occurrence of supplied substring in the string. Return -1 if not found.
+find() - Return the index of the first occurrence of supplied substring in the string. 
+         Return -1 if not found.
 format() - Format the given string.
 format_map() - Format the given string.
-index() - Return the index of the first occurrence of supplied substring in the string. Raise ValueError if not found.
+index() - Return the index of the first occurrence of supplied substring in the string. 
+           Raise ValueError if not found.
 isalnum() - Return true if the string is non-empty and all characters are alphanumeric.
 isalpha() - Return true if the string is non-empty and all characters are alphabetic.
 isdecimal() - Return true if the string is non-empty and all characters are decimal characters.
@@ -47,7 +50,10 @@ translate() - Return a copy of string that has been mapped according to the prov
 upper() - Return a copy of all uppercased string.
 zfill() - Return a numeric string left filled with zeros in the provided width.
 
- 
+Unicode String - every char represented by two strings
+   unicode string  start with  'u'  
+  str.encode
+  str.decode   
 name = raw_input("What is your name? ")
 quest = raw_input("What is your quest? ")
 color = raw_input("What is your favorite color? ")

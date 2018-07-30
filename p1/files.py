@@ -21,7 +21,9 @@ py_ver =  sys.version_info.major
 print ("/n/nYour python version is %d." % (py_ver))
 
 txt = open(filename)
+ 
 print ("\n\nHere's your file %r:\n\n\n-------------------------\n\n" % filename)
+print ("\n\ntype(itype(txt))= %r" % type(txt))
 print (txt.read())
 
 
@@ -32,7 +34,7 @@ print (txt.read())
 with open("mydata.txt", mode="w", encoding="utf-8") as myFile:
     # You can write to the file with write
     # It doesn't add a newline
-    myFile.write("Some random text\n  More random text\n  And some more")
+    myFile.write("Some random text l1 \n  More random text line 2 \n  And some more")
 
 # Open the file for reading
 # You don't have to provide a mode because it is

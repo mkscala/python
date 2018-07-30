@@ -15,7 +15,7 @@ print("Tuple 1st Value :", myTuple[0])
 
 # Get a slice from the 1st index up to but not including
 # the 3rd
-print("slice",myTuple[0:3])
+print("slice", myTuple[0:3])
 
 # Get the number of items in a Tuple
 print("Tuple Length :", len(myTuple))

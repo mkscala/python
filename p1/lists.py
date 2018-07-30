@@ -1,29 +1,69 @@
-# Lists 129     'learn python the hard way'
+"""
+list
+la = ["Day", "Night", "Song", "Frisbee", "Corn", "Banana", "Girl", "Boy"]
+la = str.split('@') # create list from a string Sprating char is '@'
+la = str.split()    # create list from a string Sprating char is ' '
+str = '*'.join(la)  # Create a string from a list
+L.append('asw')    # Add item as last item
+L.clear()          # remove all items from L
+L.index(value, [start, [stop]]) #- return first index of value.
+                                   Raises ValueError if the value is not present.
+L.count(value)     # return number of occurrences of value
+L.insert(index, object)# insert object before index
+L.extend(iterable) # extend list by appending elements from the iterable
 
+L.pop(0)           # pull  1'st item from a list
+L.sort()           # Sort a list
+L.remove(value)    # Remove first occurrence of value.
+L.reverse()        # Reverse a list
+L.sort(reverse=True)  # Reverse a list
+L.sort(key=len)     #sort according to length
+
+
+la= str.split('#') #
+"""
+
+
+def last_char(s):
+    return s[-1]
 
 
 ten_things = "Apples Oranges Crows Telephone Light Sugar"
-print ("Wait there's not 10 things in that list, let's fix that.")
 stuff = ten_things.split(' ')
+
+i = 0
+for e in stuff:
+    print(i, e)
+    i = i + 1
+stuff.sort(key=len)  # sort according to length
+print("Result of \'stuff.sort(key = len)\'")
+print(stuff)
+stuff.sort(key=last_char)  # sort according to last char
+print("Result of \'stuff.sort(key = last_char)\'")
+print(stuff)
+
+print("Wait there's not 10 things in that list, let's fix that.")
+
 more_stuff = ["Day", "Night", "Song", "Frisbee", "Corn", "Banana", "Girl", "Boy"]
+fstr = 'Boy'
+if fstr in more_stuff:
+    print("String %s is in list more_stuff" % fstr)
 
 while len(stuff) != 10:
-  next_one = more_stuff.pop()
-  print ("Adding: ", next_one)
-  stuff.append(next_one)
-  print ("There's %d items now." % len(stuff))
+    next_one = more_stuff.pop()
+    print("Adding: ", next_one)
+    stuff.append(next_one)
+    print("There's %d items now." % len(stuff))
 
-print ("There we go: ", stuff)
-print ("Let's do some things with stuff.")
-print (stuff[1]) #Seconed item
-print (stuff[- 1]) # Last  item 
-print (stuff.pop()) #Take out last item
-print (' '.join(stuff))#Apples Oranges Crows Telephone Light Sugar Boy Girl Banana
-print ('#'.join(stuff[3:5])) # Telephone#Light  
+print("There we go: ", stuff)
+print("Let's do some things with stuff.")
+print(stuff[1])  # Second item
+print(stuff[- 1])  # Last  item
+print(stuff.pop())  # Take out last item
+print(' '.join(stuff))  # Apples Oranges Crows Telephone Light Sugar Boy Girl Banana
+print('#'.join(stuff[3:5]))  # Telephone#Light
 
 # Lists 130    'learn python the hard way'
-
-
 
 
 # Loops and Lists  106     'learn python the hard way'
@@ -43,25 +83,20 @@ for fruit in fruits:
 for i in change:
     print("I got %r" % i)
 
-
 # we can also build lists, first start with an empty one
 elements = []
 
 # then use the range function to do 0 to 5 counts
 for i in range(0, 6):
     print("Adding %d to the list." % i)
-  # append is a function that lists understand
+    # append is a function that lists understand
     elements.append(i)
 
-  # now we can print them out too
+# now we can print them out too
 for i in elements:
- print ("Element was: %d" % i)
-
-
+    print("Element was: %d" % i)
 
 # Loops and Lists  110     'learn python the hard way'
-
-
 
 
 # https://www.youtube.com/watch?v=A1HUzrvS-Pw
@@ -147,7 +182,7 @@ for i in range(5):
 i = len(numList) - 1
 
 while i > 1:
-    j = 0
+    j: int = 0
     while j < i:
         # Tracks the comparison of index values
         print("\nIs {} > {}".format(numList[j], numList[j + 1]))
@@ -171,7 +206,7 @@ while i > 1:
     i -= 1
 
 for k in numList:
-    print(k, end = ', ')
+    print(k, end=', ')
 print()
 
 # ---------- MORE LIST FUNCTIONS ----------
@@ -186,7 +221,7 @@ numList.sort()
 numList.reverse()
 
 for k in numList:
-    print(k, end = ', ')
+    print(k, end=', ')
 print()
 
 # Insert value at index insert(index, value)
@@ -223,7 +258,7 @@ print()
 numList = [1, 2, 3, 4, 5]
 
 listOfValues = [[math.pow(m, 2), math.pow(m, 3), math.pow(m, 4)]
-                    for m in numList]
+                for m in numList]
 
 # [[1.0, 1.0, 1.0], [4.0, 8.0, 16.0], [9.0, 27.0, 81.0], [16.0, 64.0, 256.0], [25.0, 125.0, 625.0]]
 print("start list of  lists")
@@ -298,4 +333,4 @@ for i in range(1, 10):
 
     print()
 
-    #23:31
+    # 23:31
